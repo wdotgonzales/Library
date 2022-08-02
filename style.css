@@ -1,0 +1,174 @@
+* , * ::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(223, 223, 223);    
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+    max-width: 670px;
+}
+
+input{
+    padding-block: 0.3em;
+    font-weight: bold;
+
+    width: 15em;
+}
+
+select{
+    padding-block: 0.3em;
+    width: 17em;
+}
+
+form{
+    margin-block:1em;
+}
+
+.margin-bottom{
+    margin-bottom: 0.4em;
+}
+
+.book-container , .author-container{
+    margin-bottom: 0.8em;
+}
+
+.submitButton{
+    background-color: rgb(40, 179, 234);
+
+    font-weight: bold;
+    color: white;
+    border: 2px solid rgb(40, 179, 234);
+
+    border-radius: 5px;
+    padding-inline: 3em;
+    padding-block: 0.5em;
+
+
+}
+
+.submitButton:hover{
+    background-color: rgb(14, 113, 152);
+    border: 2px solid rgb(14, 113, 152);;
+}
+
+
+@media(min-width:405px){
+    
+    input , select{
+        width: 22em;
+    }
+}
+
+@media(min-width:495px){
+    input , select{
+        width: 26em;
+    }
+}
+
+@media(min-width:532px){
+    input , select{
+        width: 31em;
+    }
+}
+
+@media(min-width:535px){
+    form{
+        display: flex;
+        gap: 1em;
+    }
+
+    input{
+        width: 20em;
+    }
+    
+    select{
+        width: 7em;
+    }
+}
+
+
+/* Phase 2 */
+.column{
+    display: flex;
+    
+    margin-bottom: 0.5em;
+
+    margin-top: 3em;
+
+    font-weight: bold;
+}
+
+.col {
+    width: 210px;
+}
+
+.column-itm2{
+    width: 233px;
+}
+
+
+.row{
+    display: flex;
+    gap: 0.6em;
+
+    word-break: break-all;
+
+    margin-block: 1em;
+}
+
+.statusButton{
+    border: 2px solid rgb(223, 223, 223);    
+}
+
+.statusButton , .deleteButton{
+    width: 100px;   
+    height: 20px;
+
+    font-weight: bold;
+}
+
+.deleteButton{
+    margin-left: 2em;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+
+.deleteButton:hover{
+    background-color: rgb(169, 3, 3);
+    border: 2px solid rgb(169, 3, 3);
+}
+
+.statusButton:hover{
+    background-color: rgb(164, 164, 164);  
+    border: 2px solid rgb(223, 223, 223);  
+}
+
+.p1 , .p2{
+    width: 200px;   
+}
+
