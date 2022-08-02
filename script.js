@@ -42,7 +42,7 @@ function deleteObject(valueToRemove1,valueToRemove2){
 
 function changeStatusValue(statusButton,p1,p2){
     if(statusButton.textContent == 'Read'){
-        statusButton.textContent = 'No Read';
+        statusButton.textContent = 'Not Read';
 
         let extractedValue = myLibrary.filter(item => item.Book == p1.textContent || item.Author == p2.textContent);
         myLibrary = myLibrary.filter(item => item.Book !== p1.textContent || item.Author !== p2.textContent);
