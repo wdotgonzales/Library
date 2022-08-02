@@ -20,6 +20,8 @@ body{
 .heading {
     margin-top: 2em;
     margin-bottom: 0.5em;
+
+    font-size: 25px;
 }
 
 .container{
@@ -170,5 +172,19 @@ form{
 
 .p1 , .p2{
     width: 200px;   
+}
+
+
+.github-logo{
+    height: 20px;
+}
+
+.wdotgonzales{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    margin-block: 1.5em;
 }
 
